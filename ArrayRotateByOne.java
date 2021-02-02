@@ -14,6 +14,7 @@ System.out.println(a[i]);
 public static void arrRotate(int[] a,int d,int l)
 {
 	int temp,j,i;
+	d=d%l;
 for(i=0;i<d;i++)
 {
 	temp=a[0];
